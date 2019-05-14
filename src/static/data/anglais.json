@@ -1,0 +1,139 @@
+
+
+	<h1>Florian Bellanger</h1>
+
+	<section>
+		<article>
+			<h2>Personal data</h2>	
+			<ul>
+				<li>16 jun 1998</li>
+				<li>Cran-Gevrier, France</li>
+				<li>+33(0) 771 663 659</li>
+				<li>florian.bellanger@etu.univ-smb.fr</li>
+			</ul>
+		</article>
+		
+		<h2>Objective</h2>
+
+		<article>
+			<p>Currently a sandwich course student in I.T. at the IUT of Annecy, I am looking for front-end mentoring to improve my technical skills.
+			</p>
+			<p>I am really interested by jobs in relation with web, as for me, the I.T. , and more specificaly the web, is a field where everythings change in a seconde, that is make essential for the developer to learn all the time, which is a pleasure for me.
+			</p>
+			<p>My mains strengths are my great ability to learn and my promptness. I am also responsible, responsive and I have a perfect understanding of group’s mechanics.</p>
+		</article>
+		
+	</section>
+
+</section>
+
+
+
+<section >
+	<h2>Work experiences</h2>
+	<aside >
+		<p>April 2018 - Now</p>
+		<article >
+			<p>Fyne Digital Creative (digital communication agency, 5 co-worker) - 1079 route d'Albertville ZAE de la Tuilerie, 74410 Saint-Jorioz</p>
+			<p>Missions: Create and administrate website for a few client, like a iclinique.be, witch repare Apple device and sell Refurbished Devices, or Protechnologie witch develop SaaS for the « contrôle technique automobile Français ». i'm doing this ussing SaaS, Drupal, ES6, Gulp and Shopify </p>
+		</article>
+
+		<p>April 2018 - June 2018</p>
+		<article >
+			<p>Fyne Digital Creative (digital communication agency, 5 co-worker) - 1079 route d'Albertville ZAE de la Tuilerie, 74410 Saint-Jorioz</p>
+			<p>Missions: My job, as a full stack developer was to a create service  able to make an equivalence between two regulation of the « contrôle technique automobile Français ». </p>
+		</article>
+
+	</aside>
+	<aside >
+
+		<p>September 2017 - June 2018</p>
+		<article >
+			<p>Fermiers de France (online sale , 5 co-worker) - Annecy, France</p>
+			<p>Missions: Create a website which sale meat and cheese in HTML/CSS/Bootstrap/Laravel</p>
+		</article>
+
+	</aside>
+	<aside >
+		<p >February 2016 - Now </p>
+		<article >
+			<p>BDE ODIN (Student Association) - IUT Annecy, Annecy-le-Vieux, France</p>
+			<p>Missions:  Secretary :</p>
+			<ul>
+				<li>organize socials events for students (laser game, integration day ...)</li>
+				<li>sell some snacks to students</li>
+				<li>write meeting report</li>
+			</ul>
+		</article>
+
+	</aside>
+
+</section>
+
+
+<section >
+	
+	<h2>Technicals skills</h2>
+	<h3>Languages</h3>
+	<ul>
+		<li>Designing dynamic webpages using HTML5, CSS3, PHP and JavaScript</li>
+		<li>Creating and communicating with a database via SQL language (oracle, mySQL)</li>
+		<li>Desingning purely procedural applications with C language</li>
+		<li>Desingning object-oriented application with C++ and C#</li>
+		<li>Administrating and managing Database</li>
+		<li>Administrating a network</li>
+		<li>Lead a project with Scrum method</li>
+	</ul>
+	<h3>OS</h3>
+	<p><ul><li>Familiar with Windows, Android and Raspbian, for development or Office appliations</li></ul></p>
+	<h3>"Tools"</h3>
+	<ul>
+		<li>Use Bootstrap for enrich webpages</li>
+		<li>Desingning a MVC website Laravel</li>
+		<li>Follow a projet with Github</li>
+		<li>Desingning with Sublime Text 3 and configure it</li>
+	</ul>
+
+	<h2>Personal Skills</h2>
+
+	<ul>
+		<li>I am self-directed and able to take initiatives</li>
+		<li>I have good time managment skills and I am ponctual</li>
+		<li>I am curious and passionated by all knowledge, I love learn</li>
+		<li>I am patient and open minded</li>
+	</ul>
+
+
+
+	<h2>Language</h2>
+
+	<ul>
+		<li>English : intermadiate</li>
+		<li>Spanish : intermediate</li>
+	</ul>
+</section>
+
+<section >
+	<h2>Education and Qualification</h2>
+	<article>
+		<h3>2018 - 2019</h3>
+		<p>licence professionnel DIM (1 years university diploma in computer science)</p>
+		<p>USMB/IUT Annecy/CCI Formation, Annecy-le-Vieux, France</p>
+		<h3>2016 - 2018</h3>
+		<p>DUT Informatique (2 years university diploma in computer science)</p>
+		<p>USMB/IUT Annecy, Annecy-le-Vieux, France</p>
+		<h3>2016</h3>
+		<p>French Baccalaureate SSI (Hight School diploma specialized in science and computer engineering) with honor</p>
+		<p>Charles Poncet High School - Cluses, France</p>
+	</article>
+
+	<h2>Miscellaneous</h2>
+	<article>
+		<h3>Music</h3>
+		<p>Was guitarist of the Band Ecs brogh'n</p>
+		<p>I Often go to the brise Glace, a concert hall where there his all kind of music represented</p>
+		<h3>Video Games</h3>
+		<p>accomplished player of Diablo 3, (ranked 21th europe in season 8) </p>
+		<p>accomplished player of Dark Souls</p>
+	</article>
+</section>
