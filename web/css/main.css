@@ -95,6 +95,10 @@ h2 {
 section {
   padding: 40px; }
 
+body {
+  width: 1200px;
+  margin: auto; }
+
 .history-content {
   height: 30vh;
   overflow: hidden;
