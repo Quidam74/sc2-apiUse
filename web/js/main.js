@@ -12,6 +12,17 @@ var App = {
     this.bindEvent();
   },
   bindEvent: function bindEvent() {},
+  clickOnViewMore: function clickOnViewMore() {
+    document.querySelector('.history-extend').addEventListener('click', function () {
+      if (document.querySelector('.history-content').style.height !== "100%") {
+        document.querySelector('.history-content').style.height = "100%";
+        document.querySelector('.history-extend').style.position = "static";
+      } else {
+        document.querySelector('.history-content').style.height = "30vh";
+        document.querySelector('.history-extend').style.position = "relative";
+      }
+    });
+  },
   getToken: function getToken() {
     var that = this;
     fetch("https://us.battle.net/oauth/token", {
@@ -48,7 +59,7 @@ var App = {
             gameLader.matches.forEach(function (elem, index) {
               var mapIsCounted = false;
               var formattedTime = that.casttimestampToDate(elem.date);
-              document.querySelector(".history").innerHTML += "<div><span>" + elem.map + "</span><span>" + elem.type + "</span><span>" + formattedTime + "</span><span>" + elem.decision + "</span></div>";
+              document.querySelector(".history-content").innerHTML += "<div><span>" + elem.map + "</span><span>" + elem.type + "</span><span>" + formattedTime + "</span><span>" + elem.decision + "</span></div>";
 
               if (recencedMap.length == 0) {
                 recencedMap.push(elem.map);
@@ -72,12 +83,14 @@ var App = {
                 }
               }
             });
+            document.querySelector(".history-content").innerHTML += " <div class=\"history-extend\"><p>Voir plus</p></div>";
+            that.clickOnViewMore();
             mapProgress.forEach(function (stats, nombre) {
               stats.ratio = Math.round(eval(stats.win / stats.lose) * 100) / 100;
             });
             mapProgress = that.sortByKey(mapProgress, "ratio");
             mapProgress.forEach(function (stats, nombre) {
-              document.querySelector(".mapAnalyse").innerHTML += "<div><span>" + stats.mapName + "</span><span>" + stats.ratio + "</span></div>";
+              document.querySelector(".mapAnalyse-content").innerHTML += "<div><span>" + stats.mapName + "</span><span>" + stats.win + "</span><span>" + stats.lose + "</span><span>" + stats.ratio + "</span></div>";
             });
           });
         });

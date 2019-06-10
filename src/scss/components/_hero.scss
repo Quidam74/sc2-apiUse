@@ -1,0 +1,36 @@
+.hero {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  &-Bio {
+    div {
+      display: flex;
+      p {
+        margin-right: 7px;
+      }
+    }
+  }
+  &-levels {
+    ul {
+      padding-left: 20px;
+      li {
+        display: flex;
+        p {
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+  &-career{
+    ul {
+      padding-left: 20px;
+      li {
+        display: flex;
+        p {
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,23 @@
+.history-content {
+  height: 30vh;
+  overflow: hidden;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    span {
+      width: 25%;
+      text-align: center;
+    }
+  }
+  .history-extend {
+    position: relative;
+    bottom: -10px;
+    background-color: red;
+    opacity: .8;
+    p {
+      margin: auto;
+      padding:10px;
+    }
+  }
+}

@@ -85,3 +85,67 @@ a {
 
 br {
   opacity: 0; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 24px; }
+
+section {
+  padding: 40px; }
+
+.history-content {
+  height: 30vh;
+  overflow: hidden; }
+  .history-content div {
+    display: flex;
+    justify-content: space-between; }
+    .history-content div span {
+      width: 25%;
+      text-align: center; }
+  .history-content .history-extend {
+    position: relative;
+    bottom: -10px;
+    background-color: red;
+    opacity: .8; }
+    .history-content .history-extend p {
+      margin: auto;
+      padding: 10px; }
+
+.hero {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; }
+  .hero-Bio div {
+    display: flex; }
+    .hero-Bio div p {
+      margin-right: 7px; }
+  .hero-levels ul {
+    padding-left: 20px; }
+    .hero-levels ul li {
+      display: flex; }
+      .hero-levels ul li p {
+        margin-right: 7px; }
+  .hero-career ul {
+    padding-left: 20px; }
+    .hero-career ul li {
+      display: flex; }
+      .hero-career ul li p {
+        margin-right: 7px; }
+
+.mapAnalyse-content div {
+  display: flex;
+  justify-content: space-between; }
+  .mapAnalyse-content div span {
+    width: 25%;
+    text-align: center; }
+
+.mapAnalyse-content div:nth-child(-n+4) {
+  color: red; }
+
+.mapAnalyse-content div:nth-child(1) {
+  color: inherit; }
+
+.mapAnalyse-content div:nth-child(n+5) {
+  color: blue; }

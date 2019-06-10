@@ -1,0 +1,21 @@
+.mapAnalyse {
+  &-content {
+    div {
+      display: flex;
+      justify-content: space-between;
+      span {
+        width: 25%;
+        text-align: center;
+      }
+    }
+    div:nth-child(-n+4) {
+      color: red;
+    }
+    div:nth-child(1) {
+      color: inherit;
+    }
+    div:nth-child(n+5) {
+      color: blue;
+    }
+  }
+}
