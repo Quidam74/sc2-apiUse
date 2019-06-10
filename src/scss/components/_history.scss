@@ -1,6 +1,6 @@
 .history-content {
   height: 30vh;
-  overflow: hidden;
+  overflow: hidden; 
 
   div {
     display: flex;
@@ -12,7 +12,7 @@
   }
   .history-extend {
     position: relative;
-    bottom: -10px;
+    bottom: 51vh;
     background-color: red;
     opacity: .8;
     p {

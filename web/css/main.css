@@ -106,7 +106,7 @@ section {
       text-align: center; }
   .history-content .history-extend {
     position: relative;
-    bottom: -10px;
+    bottom: 51vh;
     background-color: red;
     opacity: .8; }
     .history-content .history-extend p {
