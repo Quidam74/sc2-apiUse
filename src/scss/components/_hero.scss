@@ -1,8 +1,21 @@
+.bgHero {
+
+  background-image: url("https://image.redbull.com/rbcom/010/2014-02-16/1331633574649_2/0100/0/1/zerg-attack.jpg");
+  background-repeat: no-repeat;
+}
+
 .hero {
+  background-color: $blue-Bg;
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
   &-Bio {
+img{
+  border: solid 1px black;
+  padding: 2px;
+  margin: 10px;
+}
     div {
       display: flex;
       p {
@@ -21,7 +34,7 @@
       }
     }
   }
-  &-career{
+  &-career {
     ul {
       padding-left: 20px;
       li {

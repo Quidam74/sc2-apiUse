@@ -1,5 +1,10 @@
 .mapAnalyse {
+
+  color: $color-text-black;
+
   &-content {
+
+    padding-top: 30px;
     div {
       display: flex;
       justify-content: space-between;
@@ -9,13 +14,13 @@
       }
     }
     div:nth-child(-n+4) {
-      color: red;
+      color: #F7931E;
     }
     div:nth-child(1) {
       color: inherit;
     }
     div:nth-child(n+5) {
-      color: blue;
+      color: #09DB1A;
     }
   }
 }

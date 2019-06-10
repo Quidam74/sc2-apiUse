@@ -54,7 +54,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  color: #505050;
+  color: #FFF;
   background: #FFF;
   overflow-x: hidden !important;
   -webkit-font-smoothing: antialiased;
@@ -79,7 +79,7 @@ strong {
   font-weight: 700; }
 
 a {
-  color: #505050;
+  color: #FFF;
   text-decoration: none;
   cursor: pointer; }
 
@@ -97,7 +97,8 @@ section {
 
 .history-content {
   height: 30vh;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 30px; }
   .history-content div {
     display: flex;
     justify-content: space-between; }
@@ -105,18 +106,47 @@ section {
       width: 25%;
       text-align: center; }
   .history-content .history-extend {
+    color: #FFF;
     position: relative;
-    bottom: 51vh;
-    background-color: red;
-    opacity: .8; }
+    bottom: 55vh;
+    background-color: rgba(17, 92, 196, 0.8);
+    width: 20%;
+    margin: auto;
+    border-radius: 50px;
+    transition: opacity 0.3s; }
+    .history-content .history-extend:hover {
+      opacity: 0.8; }
+    .history-content .history-extend .arrow {
+      position: absolute;
+      left: 44%;
+      top: 100%;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid rgba(17, 92, 196, 0.8);
+      clear: both; }
     .history-content .history-extend p {
       margin: auto;
-      padding: 10px; }
+      padding: 5px; }
+
+.history {
+  color: #505050; }
+
+.bgHero {
+  background-image: url("https://image.redbull.com/rbcom/010/2014-02-16/1331633574649_2/0100/0/1/zerg-attack.jpg");
+  background-repeat: no-repeat; }
 
 .hero {
+  background-color: rgba(17, 92, 196, 0.8);
   display: flex;
   width: 100%;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
+  .hero-Bio img {
+    border: solid 1px black;
+    padding: 2px;
+    margin: 10px; }
   .hero-Bio div {
     display: flex; }
     .hero-Bio div p {
@@ -134,18 +164,19 @@ section {
       .hero-career ul li p {
         margin-right: 7px; }
 
-.mapAnalyse-content div {
-  display: flex;
-  justify-content: space-between; }
-  .mapAnalyse-content div span {
-    width: 25%;
-    text-align: center; }
-
-.mapAnalyse-content div:nth-child(-n+4) {
-  color: red; }
-
-.mapAnalyse-content div:nth-child(1) {
-  color: inherit; }
-
-.mapAnalyse-content div:nth-child(n+5) {
-  color: blue; }
+.mapAnalyse {
+  color: #505050; }
+  .mapAnalyse-content {
+    padding-top: 30px; }
+    .mapAnalyse-content div {
+      display: flex;
+      justify-content: space-between; }
+      .mapAnalyse-content div span {
+        width: 25%;
+        text-align: center; }
+    .mapAnalyse-content div:nth-child(-n+4) {
+      color: #F7931E; }
+    .mapAnalyse-content div:nth-child(1) {
+      color: inherit; }
+    .mapAnalyse-content div:nth-child(n+5) {
+      color: #09DB1A; }

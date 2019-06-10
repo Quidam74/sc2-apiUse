@@ -1,6 +1,7 @@
 .history-content {
   height: 30vh;
-  overflow: hidden; 
+  overflow: hidden;
+  padding-top: 30px;
 
   div {
     display: flex;
@@ -11,13 +12,37 @@
     }
   }
   .history-extend {
+    color: $color-text;
     position: relative;
-    bottom: 51vh;
-    background-color: red;
-    opacity: .8;
+    bottom: 55vh;
+    background-color: $blue-Bg;
+    width: 20%;
+    margin: auto;
+    border-radius: 50px;
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.8;
+    }
+    .arrow {
+      position: absolute;
+      left: 44%;
+      top: 100%;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid $blue-Bg;
+      clear: both;
+    }
     p {
       margin: auto;
-      padding:10px;
+      padding: 5px;
     }
+
   }
+}
+
+.history {
+
+  color: $color-text-black;
 }

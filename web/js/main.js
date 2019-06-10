@@ -17,9 +17,13 @@ var App = {
       if (document.querySelector('.history-content').style.height !== "100%") {
         document.querySelector('.history-content').style.height = "100%";
         document.querySelector('.history-extend').style.position = "static";
+        document.querySelector('.arrow').style.display = "none";
+        document.querySelector('.history-extend p').innerHTML = "Voir moins";
       } else {
         document.querySelector('.history-content').style.height = "30vh";
         document.querySelector('.history-extend').style.position = "relative";
+        document.querySelector('.arrow').style.display = "block";
+        document.querySelector('.history-extend p').innerHTML = "Voir plus";
       }
     });
   },
@@ -39,7 +43,7 @@ var App = {
         var recencedMap = [];
         fetch('https://eu.api.blizzard.com/sc2/profile/2/1/1577911?locale=fr_FR&access_token=' + token).then(function (response) {
           response.json().then(function (gameProfile) {
-            //console.log(gameProfile);
+            document.querySelector(".hero-Bio img").src = gameProfile.summary.portrait;
             document.querySelector(".hero-name").innerHTML = gameProfile.summary.displayName;
             document.querySelector(".hero-TotalSucces").innerHTML = gameProfile.summary.totalAchievementPoints;
             document.querySelector(".hero-levels-total").innerHTML = gameProfile.summary.totalSwarmLevel;
@@ -83,7 +87,7 @@ var App = {
                 }
               }
             });
-            document.querySelector(".history-content").innerHTML += " <div class=\"history-extend\"><p>Voir plus</p></div>";
+            document.querySelector(".history-content").innerHTML += " <div class=\"history-extend\"><p>Voir plus</p><div class='arrow'></div></div>";
             that.clickOnViewMore();
             mapProgress.forEach(function (stats, nombre) {
               stats.ratio = Math.round(eval(stats.win / stats.lose) * 100) / 100;
