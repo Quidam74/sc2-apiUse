@@ -96,13 +96,19 @@ section {
   padding: 40px; }
 
 body {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto; }
 
 .history-content {
   height: 30vh;
   overflow: hidden;
   padding-top: 30px; }
+  @media screen and (max-width: 800px) {
+    .history-content {
+      height: auto;
+      overflow: hidden; }
+      .history-content .history-extend {
+        display: none; } }
   .history-content div {
     display: flex;
     justify-content: space-between; }
@@ -146,7 +152,8 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
   .hero-Bio img {
     border: solid 1px black;
     padding: 2px;

@@ -2,6 +2,12 @@
   height: 30vh;
   overflow: hidden;
   padding-top: 30px;
+  @media screen and (max-width: 800px){
+
+    height: auto;
+    overflow: hidden;
+    .history-extend {display: none}
+  }
 
   div {
     display: flex;
